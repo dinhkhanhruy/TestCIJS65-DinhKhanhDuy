@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bai3.css">
+</head>
+
+<body>
+    <div class="wrap">
+
+        <h2>The privacy-firendly URL Shortener</h2>
+
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Link Shortener</h5>
+                <div class="enter-link">
+
+                    <div>Enter a link</div>
+
+                    <input type="text" class="link" id="link">
+
+                    <button type="button" class="btn" id="getlink"><i class="fas fa-arrow-right"></i></button>
+                </div>
+
+
+                <div class="shortdomain">
+
+                    <div>Short domain: </div>
+
+                    <button id="shrtco">shrtco.de</button>
+                    <button id="9qr">9qr.de</button>
+                    <button id="shiny">shiny.link</button>
+                </div>
+
+
+                <p class="card-text">With this free Link Shortener you can make Links shorter and easier to remember.
+                </p>
+
+            </div>
+        </div>
+
+        <h6>By using sort code</h6>
+
+        <div class="card" id="get">
+            <div class="card-body">
+                <h5 class="card-title "> Link generated </h5>
+                <div class="short_link" id="short_link"></div>
+                <div class="icon">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fas fa-envelope"></i>
+                    <i class="fas fa-phone-square"></i>
+                    <i class="fab fa-telegram"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="bai3.js"></script>
+</body>
+
+</html>

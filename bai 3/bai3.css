@@ -1,0 +1,23 @@
+body {
+    background-color: #21253f;
+}
+
+.wrap {
+    margin: auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+h2, h6 {
+    color: azure;
+    display: flex;
+    justify-content: center;
+}
